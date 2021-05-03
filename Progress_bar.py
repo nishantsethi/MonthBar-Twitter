@@ -12,7 +12,6 @@ def ProgressBar():
     total_days = calendar.monthrange(now.year, now.month)[1]
 
     percentage = round(current_date/total_days,2)
-    print(current_date,total_days)
 
     bar = ""
     to_fill = int(percentage*15)
